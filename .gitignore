@@ -20,3 +20,29 @@ hrms/public/frontend
 hrms/www/hrms.html
 hrms/public/roster
 hrms/www/roster.html
+
+# Bench-generated files (e.g., assets)
+assets/
+public/
+private/backups/
+private/files/
+public/files/
+public/backups/
+public/static/
+
+# Ignore these if you’re not tracking site-specific config or data
+sites/*/public/
+sites/*/private/
+sites/*/logs/
+sites/*/db_bak/
+sites/*/error-snapshots/
+sites/*/locks/
+sites/*/scheduler.log
+sites/*/site_config.json
+sites/*/task-logs/
+sites/*/patches.txt
+sites/*/installed_apps.txt
+sites/*/modules.txt
+
+# If you're using developer_mode and don't want to version dev databases:
+sites/*/apps.txt
